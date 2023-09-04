@@ -51,10 +51,15 @@
       // Set *default* container specific settings.json values on container create.
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh",
+        "debug.internalConsoleOptions": "neverOpen",
         "editor.formatOnPaste": true,
         "editor.guides.bracketPairs": "active",
-        "debug.internalConsoleOptions": "neverOpen",
         "scm.defaultViewMode": "tree",
+        "diffEditor.diffAlgorithm": "advanced",
+        "diffEditor.experimental.collapseUnchangedRegions": true,
+        "diffEditor.experimental.showMoves": true,
+        "diffEditor.experimental.useVersion2": true,
+        "diffEditor.renderSideBySide": false,
         "files.watcherExclude": {
           "**/bin/**": true,
           "**/obj/**": true
